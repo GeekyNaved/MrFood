@@ -168,14 +168,14 @@ html{
     }
     #contact::before{
     content: "";
- background:url('../image/contact_us.jpg') no-repeat center center/cover;
+    background:url('../image/contact_us.jpg') no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
-    opacity: 0.6;
+    opacity: 0.4;
     width: 100%;
-    height: 500px;
+    height: 560px;
     }
 .contact-box{
     display: flex;
