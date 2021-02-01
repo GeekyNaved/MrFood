@@ -52,6 +52,7 @@ html{
     padding: 10px 35px;
     border-radius: 30px;
     text-decoration: none;
+    transition: .3s;
 }
 #navbar ul li a:hover{
     color: black;
@@ -94,6 +95,7 @@ html{
     outline: none;
     border: 2px solid white;
     border-radius: 30px;
+    transition: .3s;
 }
 #home .btn:hover{
     border: 2px solid brown;
@@ -116,6 +118,11 @@ html{
     display: block;
     margin: auto;
 }
+
+.boxitem img:hover{
+   transform: scale(1.2);
+}
+
 #services .boxitem{
     background-color: #f2f2f2;;
     border: 2px solid red;
