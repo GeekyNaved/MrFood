@@ -117,6 +117,7 @@ html{
     height: 150px;
     display: block;
     margin: auto;
+    transition: all 0.3s ease;
 }
 
 .boxitem img:hover{
@@ -128,9 +129,13 @@ html{
     border: 2px solid red;
     border-radius: 34px;
     width: 391px;
-    height: 550px;
     margin: 40px;
     padding: 40px;
+    transition: all 0.3s ease;
+}
+
+#services .boxitem:hover{
+    background:crimson;
 }
 
 .boxitem h2 {
