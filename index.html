@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<link rel="shortcut icon" type="image/favicon" href="image/logo.png">
 	<link rel="stylesheet" href="css/foodStyles.css">
 	<link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/foodStylesPhone.css">
@@ -23,7 +24,7 @@
 	</nav>
 	
 	<section id="home">
-		<h1 class="h-primary text-white text-center">
+		<h1 class="h-primary text-white text-center" data-aos="zoom-in" data-aos-duration="1000">
 			Welcome to my shop
 		</h1>
 		<p class="text-white text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit Lorem ipsum dolor sit amet, consectetur </p>
@@ -100,6 +101,13 @@
 			Copyright &copy; https://geekynaved.github.io/MrFood/. All rights reserved!
 		</div>
 	</footer>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset:200,
+      duration:1000,
+    });
+  </script>
 </body>
 
 </html>
